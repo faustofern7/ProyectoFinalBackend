@@ -23,18 +23,17 @@ Este proyecto de Backend se integró a su proyecto Frontend correspondiente.
 <a href="https://www.mongodb.com/"><img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png" alt="MongoDB" title="MongoDB" width="60"></a>
 <a href="https://mongoosejs.com/"><img src="https://mongoosejs.com/docs/images/mongoose5_62x30_transparent.png" alt="Mongoose" title="Mongoose" width="75"></a>
 
-* ### Otras:
+- ### Otras:
 
-    - [Express js](https://expressjs.com/es/)
-    - [Express-validator](https://express-validator.github.io/docs/guides/getting-started)
-
+  - [Express js](https://expressjs.com/es/)
+  - [Express-validator](https://express-validator.github.io/docs/guides/getting-started)
 
 ## Endpoints API
 
 - /api/clases
-    * Endpoint para gestionar clases del GYM, incluyendo la visualización y creación (POST) de clases.
+  - Endpoint para gestionar clases del GYM, incluyendo la visualización y creación (POST) de clases.
 - /api/clases/:id
-    * Endpoint para obtener información detallada de una clase específico y también para editar (PUT) o eliminar (DELETE) dicho clases.
+  - Endpoint para obtener información detallada de una clase específico y también para editar (PUT) o eliminar (DELETE) dicho clases.
 
 ## Requisitos previos
 
@@ -45,20 +44,20 @@ Este proyecto de Backend se integró a su proyecto Frontend correspondiente.
 
 1. Clona este repositorio en tu máquina local a través de una terminal:
 
-  * git clone <[url-del-repositorio](https://github.com/faustofern7/ProyectoFinalBackend)>
+- git clone <[url-del-repositorio](https://github.com/faustofern7/ProyectoFinalBackend)>
 
 2. Navega al directorio del proyecto:
 
-  * cd ProyectoFinalBackend
+- cd ProyectoFinalBackend
 
 3. Instala las dependencias del proyecto:
 
-  * npm install o npm i
+- npm install o npm i
 
 4. Crea un archivo .env en la raíz del proyecto y configura las variables de entorno necesarias. Aquí hay un ejemplo:
 
-* PORT = un puertodisponible en tu pc (Ej: 3000)
-* MONGODB_URI = url
+- PORT = un puertodisponible en tu pc (Ej: 3000)
+- MONGODB_URI = url
 
 ## Autores
 
@@ -68,8 +67,8 @@ _Fernandez Fausto Fidel_
 
 ## 📞 Contactanos
 
-| Medio    | Link                                   |
-| -------- | -------------------------------------- |
+| Medio    | Link                                  |
+| -------- | ------------------------------------- |
 | Email    | gymcentre@gmail.com                   |
 | Twitter  | https://twitter.com/GymCentre         |
 | Linkedin | https://www.linkedin.com/in/GymCentre |

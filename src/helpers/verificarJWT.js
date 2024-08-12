@@ -1,7 +1,6 @@
-import jwt from 'jsonwebtoken';
+import jwt from "jsonwebtoken";
 
 const validarJWT = (req, res, next) => {
-  
   console.log(req.header);
   const token = req.header("x-token");
   if (!token) {
@@ -16,7 +15,7 @@ const validarJWT = (req, res, next) => {
     next();
   } catch (error) {
     console.error("Error al verificar el token:", error.message);
-    
+
     if (error.name === "JsonWebTokenError") {
       return res.status(401).json({
         mensaje: "Token inválido",

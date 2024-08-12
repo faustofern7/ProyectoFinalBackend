@@ -11,8 +11,8 @@ const claseSchema = new Schema({
       validator: (valor) => {
         const pattern = /^[a-zA-Z\s]+$/;
         return pattern.test(valor);
-      }
-    }
+      },
+    },
   },
   nombreProfesor: {
     type: String,
@@ -23,8 +23,8 @@ const claseSchema = new Schema({
       validator: (valor) => {
         const pattern = /^[a-zA-Z\s]+$/;
         return pattern.test(valor);
-      }
-    }
+      },
+    },
   },
   imagen: {
     type: String,
@@ -33,8 +33,8 @@ const claseSchema = new Schema({
       validator: (valor) => {
         const pattern = /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|jpeg|gif|png)/;
         return pattern.test(valor);
-      }
-    }
+      },
+    },
   },
   imagenClase: {
     type: String,
@@ -43,29 +43,29 @@ const claseSchema = new Schema({
       validator: (valor) => {
         const pattern = /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|jpeg|gif|png)/;
         return pattern.test(valor);
-      }
-    }
+      },
+    },
   },
   descripcion_breve: {
     type: String,
     required: true,
     minLength: 5,
-    maxLength: 80
+    maxLength: 80,
   },
   fecha: {
     type: String,
     required: true,
     minLength: 2,
-    maxLength: 50
+    maxLength: 50,
   },
   horario: {
     type: String,
     required: true,
     minLength: 2,
-    maxLength: 50
-  }
+    maxLength: 50,
+  },
 });
 
-const Clase = mongoose.model('Clase', claseSchema);
+const Clase = mongoose.model("Clase", claseSchema);
 
 export default Clase;

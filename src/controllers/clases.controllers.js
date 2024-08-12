@@ -65,8 +65,8 @@ export const borraClase = async (req, res) => {
     if (!claseBuscada) {
       res.status(400).json({ mensaje: `La clase ${req.params.id} no existe` });
     }
-    await Clase.findByIdAndDelete(req.params.id)
-    res.status(200).json({mensaje: 'La clase fue eliminada correctamente'})
+    await Clase.findByIdAndDelete(req.params.id);
+    res.status(200).json({ mensaje: "La clase fue eliminada correctamente" });
   } catch (error) {
     console.error(error);
     res

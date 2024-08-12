@@ -1,12 +1,12 @@
-import mongoose from 'mongoose'
+import mongoose from "mongoose";
 
-console.log(process.env.MONGODB_URI)
-const mongodb= process.env.MONGODB_URI;
+console.log(process.env.MONGODB_URI);
+const mongodb = process.env.MONGODB_URI;
 
-mongoose.connect(mongodb)
+mongoose.connect(mongodb);
 
 const conexion = mongoose.connection;
 
-conexion.once('open', ()=>{
-    console.info('BD conectada')
-})
+conexion.once("open", () => {
+  console.info("BD conectada");
+});
