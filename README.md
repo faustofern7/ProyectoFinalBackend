@@ -14,7 +14,7 @@ El alcance de este proyecto se centra en realizar todos los pasos del CRUD y deb
 
 Este proyecto de Backend se integró a su proyecto Frontend correspondiente.
 
-#### Repositorio Frontend: [ProyectoFinalRC-Front](https://github.com/faustofern7/ProyectoFinal)
+#### Repositorio Frontend: [ProyectoFinal](https://github.com/faustofern7/ProyectoFinal)
 
 ## Tecnologías Utilizadas
 
@@ -44,7 +44,7 @@ Este proyecto de Backend se integró a su proyecto Frontend correspondiente.
 
 1. Clona este repositorio en tu máquina local a través de una terminal:
 
-- git clone <[url-del-repositorio](https://github.com/faustofern7/ProyectoFinalBackend)>
+- git clone <[ProyectoFinalBackend](https://github.com/faustofern7/ProyectoFinalBackend)>
 
 2. Navega al directorio del proyecto:
 
